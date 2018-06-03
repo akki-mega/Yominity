@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06734E02C7CA2F78775A315A /* Pods_Yominity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68AD0F967703ACB202A3B5B /* Pods_Yominity.framework */; };
+		9040E9B023093EC69C552E9A /* Pods_YominityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C13D33D676196308A1CA6 /* Pods_YominityUITests.framework */; };
 		A034763F208ADDC800251622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034763E208ADDC800251622 /* AppDelegate.swift */; };
 		A0347641208ADDC800251622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0347640208ADDC800251622 /* ViewController.swift */; };
 		A0347644208ADDC800251622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0347642208ADDC800251622 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		A0347649208ADDC800251622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0347647208ADDC800251622 /* LaunchScreen.storyboard */; };
 		A0347654208ADDC900251622 /* YominityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0347653208ADDC900251622 /* YominityTests.swift */; };
 		A034765F208ADDC900251622 /* YominityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034765E208ADDC900251622 /* YominityUITests.swift */; };
+		A078C6EB20C16F7F00E5B204 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A078C6EA20C16F7F00E5B204 /* GoogleService-Info.plist */; };
+		A078C6ED20C3938100E5B204 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078C6EC20C3938100E5B204 /* CreateAccountViewController.swift */; };
+		A078C6EF20C3970F00E5B204 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078C6EE20C3970F00E5B204 /* LogInViewController.swift */; };
+		A0FF017A209EC273006BA7D2 /* Yominityログイン画像.png in Resources */ = {isa = PBXBuildFile; fileRef = A0FF0179209EC273006BA7D2 /* Yominityログイン画像.png */; };
+		A5A783392BE76F93CC3AD025 /* Pods_YominityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148DB8963D6D3DBB0EDEAE3B /* Pods_YominityTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148DB8963D6D3DBB0EDEAE3B /* Pods_YominityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YominityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		477C13D33D676196308A1CA6 /* Pods_YominityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YominityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFBFF52222A50FE2BF80D63 /* Pods-YominityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YominityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YominityUITests/Pods-YominityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A034763B208ADDC800251622 /* Yominity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yominity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A034763E208ADDC800251622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0347640208ADDC800251622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		A034765A208ADDC900251622 /* YominityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YominityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A034765E208ADDC900251622 /* YominityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YominityUITests.swift; sourceTree = "<group>"; };
 		A0347660208ADDC900251622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A078C6EA20C16F7F00E5B204 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A078C6EC20C3938100E5B204 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A078C6EE20C3970F00E5B204 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A0FF0179209EC273006BA7D2 /* Yominityログイン画像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yominityログイン画像.png"; sourceTree = "<group>"; };
+		A68AD0F967703ACB202A3B5B /* Pods_Yominity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yominity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F670FEAF5A3CB91878BB78 /* Pods-YominityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YominityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YominityTests/Pods-YominityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4209076FA6EBD309AB1251F /* Pods-YominityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YominityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YominityUITests/Pods-YominityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBA0EDE4BD1E816EC66B17C3 /* Pods-Yominity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yominity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yominity/Pods-Yominity.release.xcconfig"; sourceTree = "<group>"; };
+		DCDEF842DB7E69BD0CA5F06D /* Pods-YominityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YominityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YominityTests/Pods-YominityTests.release.xcconfig"; sourceTree = "<group>"; };
+		E79C5016F607BF897873E505 /* Pods-Yominity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yominity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yominity/Pods-Yominity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06734E02C7CA2F78775A315A /* Pods_Yominity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A783392BE76F93CC3AD025 /* Pods_YominityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9040E9B023093EC69C552E9A /* Pods_YominityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				A0347652208ADDC900251622 /* YominityTests */,
 				A034765D208ADDC900251622 /* YominityUITests */,
 				A034763C208ADDC800251622 /* Products */,
+				FA5B2EADE8C7DA45D836C6CC /* Pods */,
+				E1612EF967C4A8D545769953 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +122,16 @@
 		A034763D208ADDC800251622 /* Yominity */ = {
 			isa = PBXGroup;
 			children = (
+				A0FF0179209EC273006BA7D2 /* Yominityログイン画像.png */,
 				A034763E208ADDC800251622 /* AppDelegate.swift */,
 				A0347640208ADDC800251622 /* ViewController.swift */,
+				A078C6EC20C3938100E5B204 /* CreateAccountViewController.swift */,
+				A078C6EE20C3970F00E5B204 /* LogInViewController.swift */,
 				A0347642208ADDC800251622 /* Main.storyboard */,
 				A0347645208ADDC800251622 /* Assets.xcassets */,
 				A0347647208ADDC800251622 /* LaunchScreen.storyboard */,
 				A034764A208ADDC800251622 /* Info.plist */,
+				A078C6EA20C16F7F00E5B204 /* GoogleService-Info.plist */,
 			);
 			path = Yominity;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = YominityUITests;
 			sourceTree = "<group>";
 		};
+		E1612EF967C4A8D545769953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A68AD0F967703ACB202A3B5B /* Pods_Yominity.framework */,
+				148DB8963D6D3DBB0EDEAE3B /* Pods_YominityTests.framework */,
+				477C13D33D676196308A1CA6 /* Pods_YominityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5B2EADE8C7DA45D836C6CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E79C5016F607BF897873E505 /* Pods-Yominity.debug.xcconfig */,
+				DBA0EDE4BD1E816EC66B17C3 /* Pods-Yominity.release.xcconfig */,
+				B8F670FEAF5A3CB91878BB78 /* Pods-YominityTests.debug.xcconfig */,
+				DCDEF842DB7E69BD0CA5F06D /* Pods-YominityTests.release.xcconfig */,
+				7DFBFF52222A50FE2BF80D63 /* Pods-YominityUITests.debug.xcconfig */,
+				D4209076FA6EBD309AB1251F /* Pods-YominityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0347663208ADDC900251622 /* Build configuration list for PBXNativeTarget "Yominity" */;
 			buildPhases = (
+				06EBB5F07B3E9F9C87286392 /* [CP] Check Pods Manifest.lock */,
 				A0347637208ADDC800251622 /* Sources */,
 				A0347638208ADDC800251622 /* Frameworks */,
 				A0347639208ADDC800251622 /* Resources */,
+				4573C3C4C7731E5F49BA8B20 /* [CP] Embed Pods Frameworks */,
+				CCFC06BF26E91C5C03565AFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0347666208ADDC900251622 /* Build configuration list for PBXNativeTarget "YominityTests" */;
 			buildPhases = (
+				22FB9B6169D63A533D775C65 /* [CP] Check Pods Manifest.lock */,
 				A034764B208ADDC900251622 /* Sources */,
 				A034764C208ADDC900251622 /* Frameworks */,
 				A034764D208ADDC900251622 /* Resources */,
+				A96B0992DE87DE49C4802917 /* [CP] Embed Pods Frameworks */,
+				043BB3ECEC6967E3122BCFC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0347669208ADDC900251622 /* Build configuration list for PBXNativeTarget "YominityUITests" */;
 			buildPhases = (
+				E72BE02FCD991FAB50403310 /* [CP] Check Pods Manifest.lock */,
 				A0347656208ADDC900251622 /* Sources */,
 				A0347657208ADDC900251622 /* Frameworks */,
 				A0347658208ADDC900251622 /* Resources */,
+				48A2E6AE34FC745F30FB09E4 /* [CP] Embed Pods Frameworks */,
+				544D7AAF430425AFBFFC1312 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +295,8 @@
 			files = (
 				A0347649208ADDC800251622 /* LaunchScreen.storyboard in Resources */,
 				A0347646208ADDC800251622 /* Assets.xcassets in Resources */,
+				A078C6EB20C16F7F00E5B204 /* GoogleService-Info.plist in Resources */,
+				A0FF017A209EC273006BA7D2 /* Yominityログイン画像.png in Resources */,
 				A0347644208ADDC800251622 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +317,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		043BB3ECEC6967E3122BCFC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YominityTests/Pods-YominityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06EBB5F07B3E9F9C87286392 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22FB9B6169D63A533D775C65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4573C3C4C7731E5F49BA8B20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yominity/Pods-Yominity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A2E6AE34FC745F30FB09E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YominityUITests/Pods-YominityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544D7AAF430425AFBFFC1312 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YominityUITests/Pods-YominityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96B0992DE87DE49C4802917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YominityTests/Pods-YominityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFC06BF26E91C5C03565AFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yominity/Pods-Yominity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72BE02FCD991FAB50403310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0347637208ADDC800251622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A078C6EF20C3970F00E5B204 /* LogInViewController.swift in Sources */,
+				A078C6ED20C3938100E5B204 /* CreateAccountViewController.swift in Sources */,
 				A0347641208ADDC800251622 /* ViewController.swift in Sources */,
 				A034763F208ADDC800251622 /* AppDelegate.swift in Sources */,
 			);
@@ -424,6 +627,7 @@
 		};
 		A0347664208ADDC900251622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79C5016F607BF897873E505 /* Pods-Yominity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +642,7 @@
 		};
 		A0347665208ADDC900251622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA0EDE4BD1E816EC66B17C3 /* Pods-Yominity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +657,7 @@
 		};
 		A0347667208ADDC900251622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F670FEAF5A3CB91878BB78 /* Pods-YominityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +674,7 @@
 		};
 		A0347668208ADDC900251622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDEF842DB7E69BD0CA5F06D /* Pods-YominityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +691,7 @@
 		};
 		A034766A208ADDC900251622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFBFF52222A50FE2BF80D63 /* Pods-YominityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +707,7 @@
 		};
 		A034766B208ADDC900251622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4209076FA6EBD309AB1251F /* Pods-YominityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
